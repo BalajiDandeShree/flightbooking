@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-19T21:49:47 IST" name="Suite" finished-at="2024-05-19T21:50:29 IST" duration-ms="42013">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrroValidationTest.LoginErrorValidation()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.ErrroValidationTest@5dafbe45]" name="LoginErrorValidation" class="BalajiSoft.SaleniumDesign.tests.ErrroValidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:BalajiSoft.SaleniumDesign.tests.SubmitOrderTest@5b799640]" name="submitOrder" class="BalajiSoft.SaleniumDesign.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-05-19T21:49:47 IST" name="Errro Validation Test" finished-at="2024-05-19T21:50:29 IST" duration-ms="42013">
+      <class name="BalajiSoft.SaleniumDesign.tests.ErrroValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.ErrroValidationTest@5dafbe45]" started-at="2024-05-19T21:49:47 IST" name="launchApplication" finished-at="2024-05-19T21:50:08 IST" duration-ms="20904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.ErrroValidationTest@5dafbe45]" started-at="2024-05-19T21:50:08 IST" name="LoginErrorValidation" finished-at="2024-05-19T21:50:09 IST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.ErrroValidationTest@5dafbe45]" started-at="2024-05-19T21:50:09 IST" name="tearDown" finished-at="2024-05-19T21:50:09 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.ErrroValidationTest@5dafbe45]" started-at="2024-05-19T21:50:09 IST" name="launchApplication" finished-at="2024-05-19T21:50:20 IST" duration-ms="10797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.ErrroValidationTest@5dafbe45]" started-at="2024-05-19T21:50:20 IST" name="ProductErrorValidation" finished-at="2024-05-19T21:50:29 IST" duration-ms="8888" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at BalajiSoft.SaleniumDesign.tests.ErrroValidationTest.ProductErrorValidation(ErrroValidationTest.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:BalajiSoft.SaleniumDesign.tests.ErrroValidationTest@5dafbe45]" started-at="2024-05-19T21:50:29 IST" name="tearDown" finished-at="2024-05-19T21:50:29 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- BalajiSoft.SaleniumDesign.tests.ErrroValidationTest -->
+    </test> <!-- Errro Validation Test -->
+  </suite> <!-- Suite -->
+</testng-results>
